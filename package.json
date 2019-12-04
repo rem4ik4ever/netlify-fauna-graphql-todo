@@ -24,6 +24,7 @@
   "scripts": {
     "docs": "md-magic --path '**/*.md' --ignore 'node_modules'",
     "start": "react-scripts start",
+    "prebuild": "node ./scripts/installer.js",
     "build": "react-scripts build"
   },
   "devDependencies": {
